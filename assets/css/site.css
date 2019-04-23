@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Vollkorn+SC|Vollkorn:400,400i,600|Khand:700");
+body {
+  font-family: "Vollkorn", serif;
+  font-size: 16px;
+  line-height: 32px;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Vollkorn SC", serif;
+  font-weight: normal !important;
+}
+
+h5,
+h6 {
+  letter-spacing: 3px;
+}
+
+.highlighted,
+a {
+  border-bottom: 3px solid #ffcc00;
+  color: inherit;
+  font-style: italic;
+  -webkit-transition: all linear 0.2s;
+  transition: all linear 0.2s;
+}
+
+.highlighted:hover,
+a:hover {
+  color: #ffcc00;
+  text-decoration: none;
+  border-bottom-width: 6px;
+}
+
+h1 {
+  font-size: 33px;
+  font-weight: 400;
+  line-height: 67px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.dc--splash {
+  background: url(/assets/img/Stumpy001.00_03_36_01.Still001@2x.jpg);
+  background-size: cover;
+  height: 127vh;
+}
+
+.stats {
+  position: relative;
+  top: 64px;
+  line-height: normal !important;
+}
+
+.stats .row {
+  margin-top: 6px;
+}
+
+.stats .stat {
+  font-family: "Khand", sans-serif;
+  font-size: 30px;
+}
+
+.stats .text-white-50 {
+  font-size: 20px;
+}
+
+.stats .statname {
+  position: relative;
+  top: -6px;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+aside {
+  font-size: 12px;
+  line-height: 24px;
+}
+
+aside * {
+  font-family: "Open Sans Condensed", sans-serif !important;
+}
+
+aside h2 {
+  font-size: 14px;
+  font-weight: 700 !important;
+}
+/*# sourceMappingURL=site.css.map */
