@@ -162,4 +162,8 @@ video.bg {
 .home-enter:hover {
   background: #000;
 }
+
+.m-- {
+  width: 100vw;
+}
 /*# sourceMappingURL=site.css.map */
