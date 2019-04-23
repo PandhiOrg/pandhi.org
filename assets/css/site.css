@@ -52,14 +52,17 @@ h2 {
 }
 
 .dc--splash {
-  background: url(/assets/img/Stumpy001.00_03_36_01.Still001@2x.jpg) top right;
-  background-size: cover;
   min-height: 127vh;
+  position: relative;
+}
+
+.dc--splash * {
+  text-shadow: 0 0 4px #000;
 }
 
 .stats {
   position: relative;
-  top: 64px;
+  top: 16vh !important;
   line-height: normal !important;
   opacity: 0.6;
 }
@@ -107,30 +110,56 @@ aside a {
 
 main section {
   margin-top: 26vh;
-  margin-bottom: 14vh;
+  margin-bottom: 8vh;
 }
 
-#Container {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  overflow: hidden;
-}
-
-#Container video {
+video.bg {
   position: absolute;
-  left: 50%;
-  top: 50%;
-  /* The following will size the video to fit the full container. Not necessary, just nice.*/
-  min-width: 100%;
-  min-height: 100%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
   z-index: 0;
+  width: 100%;
+  height: 127vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#Container div {
-  position: relative;
-  z-index: 1;
+.pusher256 {
+  margin-top: 128px !important;
+}
+
+.home--splash {
+  background: url("/assets/img/home.jpg") center center;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: top ease-out 1s;
+  transition: top ease-out 1s;
+  -webkit-box-shadow: 0 60px 260px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 60px 260px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50000;
+}
+
+.home--splash-up {
+  top: -120vh;
+}
+
+.home-enter {
+  position: fixed;
+  bottom: 0;
+  height: 20vh;
+  padding: 12px;
+  background: #ffcc00;
+  left: 48.6vw;
+  font-size: 24px;
+}
+
+.home-enter:hover {
+  background: #000;
 }
 /*# sourceMappingURL=site.css.map */
