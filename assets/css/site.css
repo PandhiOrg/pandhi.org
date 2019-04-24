@@ -62,9 +62,15 @@ h2 {
 
 .stats {
   position: relative;
-  top: 16vh !important;
   line-height: normal !important;
   opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+  .stats {
+    top: 16vh !important;
+    display: block;
+  }
 }
 
 .stats .row {
@@ -86,6 +92,10 @@ h2 {
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 12px;
   font-weight: 700;
+}
+
+.mobile-only .stat {
+  opacity: 1 !important;
 }
 
 aside {
@@ -122,6 +132,26 @@ video.bg {
   height: 127vh;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.pc-only {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .pc-only {
+    display: block;
+  }
+}
+
+.mobile-only {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
 }
 
 .pusher256 {
@@ -164,6 +194,30 @@ video.bg {
 }
 
 .m-- {
-  width: 100vw;
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 1024px) {
+  .m-- {
+    height: 75vh;
+  }
+}
+
+.m--- {
+  background-position: 30% center;
+}
+
+.appeal {
+  position: relative;
+  top: 22vh;
+}
+
+@media (min-width: 1024px) {
+  .appeal {
+    top: 32vh;
+  }
 }
 /*# sourceMappingURL=site.css.map */
