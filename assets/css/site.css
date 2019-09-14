@@ -206,6 +206,19 @@ video.bg {
   }
 }
 
+.m- {
+  width: 100%;
+  height: 60vh;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 1024px) {
+  .m- {
+    height: 40vh;
+  }
+}
+
 .m--- {
   background-position: 30% center;
 }
@@ -219,5 +232,25 @@ video.bg {
   .appeal {
     top: 32vh;
   }
+}
+
+nav {
+  background-color: #000 !important;
+}
+
+nav .navbar-brand {
+  font-size: 16px !important;
+}
+
+nav a {
+  font-size: 13px !important;
+  border: 0 !important;
+  font-weight: 2 00;
+  font-style: normal !important;
+}
+
+nav .nav-item {
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
 /*# sourceMappingURL=site.css.map */

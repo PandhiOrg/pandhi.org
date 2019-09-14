@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 
 <head>
@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <!--<div class="home--splash"><a class="home-enter" href="#">enter</a></div>-->
     <div id="everything" class="d-nonex">
 
 
@@ -47,7 +46,8 @@
                                 <div class="col-lg-3">
                                     <div class="row">
                                         <div class="col-6">
-                                            <span class="stat">256</span>
+                                            <span class="stat">
+                                                <small>&gt; </small>256</span>
                                             <br />
                                             <span class="statname">Population Discovered</span>
                                         </div>
@@ -140,7 +140,7 @@
                                 expansion.
                             </p>
                             <p>
-                                <a href="#">
+                                <a href="/kutch.html">
                                     Find out more about this environment.
                                 </a>
                             </p>
@@ -299,15 +299,6 @@
         integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o"
         crossorigin="anonymous"></script>
 
-    <script>
-        $(document).ready(function () {
-            $(".home-enter").click(function () {
-                $(".home--splash").addClass("home--splash-up");
-                $(".home-enter").css("display", "none");
-                $("#everything").toggleClass("d-none");
-            });
-        });
-    </script>
 </body>
 
 </html>
