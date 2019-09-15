@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Vollkorn+SC|Vollkorn:400,400i,600|Khand:600");
 body {
   font-family: "Vollkorn", serif;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.8vh;
+  line-height: 2.7vh;
   padding: 0;
   margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -37,13 +38,13 @@ a:hover {
 }
 
 h1 {
-  font-size: 33px;
+  font-size: 3.8vh;
   font-weight: 400;
   line-height: 67px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 3vh;
   font-weight: 400;
 }
 
@@ -260,5 +261,10 @@ nav .nav-item {
 
 .o-25 {
   opacity: 0.25;
+}
+
+.yellowshadow {
+  -webkit-box-shadow: #ffcc00 12px -12px 0;
+          box-shadow: #ffcc00 12px -12px 0;
 }
 /*# sourceMappingURL=site.css.map */

@@ -12,10 +12,11 @@ $color--white: #ffffff;
 
 body {
   font-family: $font--body;
-  font-size: 16px;
-  line-height: 32px;
+  font-size: 1.8vh;
+  line-height: 2.7vh;
   padding: 0;
   margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 // * {
@@ -50,13 +51,13 @@ a {
 }
 
 h1 {
-  font-size: 33px;
+  font-size: 3.8vh;
   font-weight: 400;
   line-height: 67px;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 3vh;
   font-weight: 400;
 }
 
@@ -257,4 +258,9 @@ nav {
 }
 .o-25 {
   opacity: 0.25;
+}
+
+
+.yellowshadow{
+  box-shadow: #ffcc00 12px -12px 0;
 }
