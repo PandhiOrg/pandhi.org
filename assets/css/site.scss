@@ -18,9 +18,9 @@ body {
   margin: 0;
 }
 
-* {
-  border-radius: 0 !important;
-}
+// * {
+//   border-radius: 0 !important;
+// }
 
 h1,
 h2,
@@ -107,12 +107,8 @@ h2 {
 }
 
 aside {
-  * {
-    font-family: $font--caption !important;
-  }
-
   color: $color--light;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 24px;
 
   h2 {
@@ -130,6 +126,10 @@ main {
   section {
     margin-top: 26vh;
     margin-bottom: 8vh;
+
+    p {
+      text-align: justify;
+    }
   }
 }
 
@@ -230,14 +230,14 @@ video.bg {
 
 nav {
   background-color: #000 !important;
-  
+
   .navbar-brand {
     font-size: 16px !important;
   }
-  
+
   a {
     font-size: 13px !important;
-    
+
     border: 0 !important;
     font-weight: 2 00;
     font-style: normal !important;
@@ -249,6 +249,12 @@ nav {
   }
 }
 
-
-.o-50{   opacity: 0.5; }
-.o-25{   opacity: 0.25; }
+.o-75 {
+  opacity: 0.75;
+}
+.o-50 {
+  opacity: 0.5;
+}
+.o-25 {
+  opacity: 0.25;
+}
