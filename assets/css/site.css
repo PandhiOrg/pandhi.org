@@ -30,6 +30,11 @@ a {
   transition: all linear 0.2s;
 }
 
+.highlighted em,
+a em {
+  color: #000;
+}
+
 .highlighted:hover,
 a:hover {
   color: #ffcc00;

@@ -43,6 +43,10 @@ a {
   font-style: italic;
   transition: all linear 0.2s;
 
+  em{
+    color: #000;
+  }
+
   &:hover {
     color: $color--accent;
     text-decoration: none;
