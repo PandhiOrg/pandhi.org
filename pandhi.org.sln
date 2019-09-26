@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "pandhi.org", ".", "{BFA88E85-95F8-43FA-AE44-5706BE95EACC}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56297"
+		Debug.AspNetCompiler.PhysicalPath = "..\pandhi.org\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56297\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56297"
+		Release.AspNetCompiler.PhysicalPath = "..\pandhi.org\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56297\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56297"
+		SlnRelativePath = "..\pandhi.org\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA88E85-95F8-43FA-AE44-5706BE95EACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA88E85-95F8-43FA-AE44-5706BE95EACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A525045A-4F61-4480-8CAF-97ABECDE185D}
+	EndGlobalSection
+EndGlobal
