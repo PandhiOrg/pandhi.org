@@ -57,7 +57,11 @@ a {
 h1 {
   font-size: 3.8vh;
   font-weight: 400;
-  line-height: 67px;
+  line-height: 5vh;
+
+  @media (min-width: 768px) {
+    line-height: 6.5vh;
+  }
 }
 
 h2 {
@@ -66,7 +70,7 @@ h2 {
 }
 
 .dc--splash {
-  min-height: 127vh;
+  min-height: 100vh;
   position: relative;
 
   * {
@@ -78,7 +82,7 @@ h2 {
   position: relative;
 
   @media (min-width: 768px) {
-    top: 16vh !important;
+    top: 10vh !important;
     display: block;
   }
 
@@ -129,7 +133,7 @@ aside {
 
 main {
   section {
-    margin-top: 26vh;
+    margin-top: 16vh;
     margin-bottom: 8vh;
 
     p {
@@ -144,7 +148,7 @@ video.bg {
   left: 0;
   z-index: 0;
   width: 100%;
-  height: 127vh;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -153,6 +157,14 @@ video.bg {
   @media (min-width: 768px) {
     display: block;
   }
+}
+
+
+.jumbotron{
+
+      padding-top: 0.5rem;
+  
+
 }
 
 .mobile-only {
@@ -237,20 +249,27 @@ nav {
   background-color: #000 !important;
 
   .navbar-brand {
-    font-size: 16px !important;
+    font-size: 18px !important;
+    font-family: $font--body;
+
   }
 
   a {
-    font-size: 13px !important;
-
+    font-size: 15px !important;
     border: 0 !important;
-    font-weight: 2 00;
+    font-weight: 200;
     font-style: normal !important;
+    font-family: $font--title;
+
   }
 
   .nav-item {
     margin-left: 2vw;
     margin-right: 2vw;
+  }
+
+  .navbar-toggler{
+    border: 0;
   }
 }
 
@@ -267,4 +286,9 @@ nav {
 
 .yellowshadow{
   box-shadow: #ffcc00 12px -12px 0;
+}
+
+
+.text-uppercaseSC{
+  font-family: $font--title;
 }

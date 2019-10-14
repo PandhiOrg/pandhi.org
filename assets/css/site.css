@@ -45,7 +45,13 @@ a:hover {
 h1 {
   font-size: 3.8vh;
   font-weight: 400;
-  line-height: 67px;
+  line-height: 5vh;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    line-height: 6.5vh;
+  }
 }
 
 h2 {
@@ -54,7 +60,7 @@ h2 {
 }
 
 .dc--splash {
-  min-height: 127vh;
+  min-height: 100vh;
   position: relative;
 }
 
@@ -70,7 +76,7 @@ h2 {
 
 @media (min-width: 768px) {
   .stats {
-    top: 16vh !important;
+    top: 10vh !important;
     display: block;
   }
 }
@@ -117,7 +123,7 @@ aside a {
 }
 
 main section {
-  margin-top: 26vh;
+  margin-top: 16vh;
   margin-bottom: 8vh;
 }
 
@@ -131,7 +137,7 @@ video.bg {
   left: 0;
   z-index: 0;
   width: 100%;
-  height: 127vh;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -144,6 +150,10 @@ video.bg {
   .pc-only {
     display: block;
   }
+}
+
+.jumbotron {
+  padding-top: 0.5rem;
 }
 
 .mobile-only {
@@ -241,19 +251,25 @@ nav {
 }
 
 nav .navbar-brand {
-  font-size: 16px !important;
+  font-size: 18px !important;
+  font-family: "Vollkorn", serif;
 }
 
 nav a {
-  font-size: 13px !important;
+  font-size: 15px !important;
   border: 0 !important;
-  font-weight: 2 00;
+  font-weight: 200;
   font-style: normal !important;
+  font-family: "Vollkorn SC", serif;
 }
 
 nav .nav-item {
   margin-left: 2vw;
   margin-right: 2vw;
+}
+
+nav .navbar-toggler {
+  border: 0;
 }
 
 .o-75 {
@@ -271,5 +287,9 @@ nav .nav-item {
 .yellowshadow {
   -webkit-box-shadow: #ffcc00 12px -12px 0;
           box-shadow: #ffcc00 12px -12px 0;
+}
+
+.text-uppercaseSC {
+  font-family: "Vollkorn SC", serif;
 }
 /*# sourceMappingURL=site.css.map */
