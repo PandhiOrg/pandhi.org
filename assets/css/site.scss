@@ -259,8 +259,11 @@ nav {
     border: 0 !important;
     font-weight: 200;
     font-style: normal !important;
-    font-family: $font--title;
+    color: $color--white !important;
 
+    &:hover{
+      color: $color--accent !important;
+    }
   }
 
   .nav-item {

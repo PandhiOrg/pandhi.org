@@ -260,7 +260,11 @@ nav a {
   border: 0 !important;
   font-weight: 200;
   font-style: normal !important;
-  font-family: "Vollkorn SC", serif;
+  color: #ffffff !important;
+}
+
+nav a:hover {
+  color: #ffcc00 !important;
 }
 
 nav .nav-item {
