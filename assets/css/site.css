@@ -278,6 +278,10 @@ nav a:hover {
   color: #ffcc00 !important;
 }
 
+nav .text-white p {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
 nav .nav-item {
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -310,5 +314,13 @@ nav .navbar-toggler {
 
 .text-uppercaseSC {
   font-family: "Vollkorn SC", serif;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  border-bottom-width: 1px !important;
 }
 /*# sourceMappingURL=site.css.map */

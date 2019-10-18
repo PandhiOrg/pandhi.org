@@ -271,6 +271,12 @@ nav {
     }
   }
 
+  .text-white {
+    p {
+      color: rgba(255, 255, 255, 0.5) !important;
+    }
+  }
+
   .nav-item {
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -296,9 +302,16 @@ nav {
 }
 
 .yellowshadow {
-  box-shadow: #ffcc00 12px -12px 0;
+  box-shadow: $color--accent 12px -12px 0;
 }
 
 .text-uppercaseSC {
   font-family: $font--title;
+}
+
+footer {
+  text-align: center;
+  a {
+    border-bottom-width: 1px !important;
+  }
 }
