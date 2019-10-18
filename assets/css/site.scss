@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Vollkorn+SC|Montserrat:400,600|Vollkorn:400,400i,600,700");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn+SC|Montserrat:400,600|Vollkorn:400,400i,600,700");
 
 $font--body: "Vollkorn", serif;
 $font--title: "Vollkorn SC", serif;
@@ -18,8 +18,8 @@ body {
   line-height: 3.5vh;
 
   @media (min-width: 768px) {
-    font-size: 1.8vh;
-    line-height: 2.7vh;
+    font-size: 2.15vh;
+    line-height: 3.2vh;
   }
 
   padding: 0;
@@ -252,6 +252,7 @@ video.bg {
   height: 100vh;
   background-size: cover;
 }
+
 nav {
   background-color: #000 !important;
 
@@ -261,10 +262,11 @@ nav {
   }
 
   a {
-    font-size: 10px !important;
+    font-size: 15px !important;
     border: 0 !important;
     color: $color--white !important;
     font-style: normal !important;
+    letter-spacing: 1px;
 
     &:hover {
       color: $color--accent !important;
