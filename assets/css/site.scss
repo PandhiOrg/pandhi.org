@@ -349,22 +349,20 @@ footer {
   a {
     border: 0 !important;
   }
-
+  ul {
+    li {
+      padding-left: 12vw !important;
+      display: inline-block;
+      list-style: none;
+    }
+  }
   .navbar {
     background-color: #eaedf2 !important;
-    ul {
-      padding-left: 2vw;
-
-      li {
-        display: inline-block;
-        list-style: none;
-      }
-    }
   }
 
   .navbar-toggler-icon {
     background: url(/assets/menu.svg) no-repeat;
-    max-width: 1.5vw;
+    max-width: 3vh;
 
     &:hover {
       opacity: 0.4;
@@ -372,15 +370,14 @@ footer {
   }
 }
 
-
 .card-columns {
   @media (min-width: 768px) {
     column-count: 3;
   }
 }
 
-.team{
-  p{
+.team {
+  p {
     text-align: left;
     font-size: 1.9vh;
     line-height: 3vh;

@@ -359,22 +359,19 @@ footer a {
   border: 0 !important;
 }
 
-.top-nav .navbar {
-  background-color: #eaedf2 !important;
-}
-
-.top-nav .navbar ul {
-  padding-left: 2vw;
-}
-
-.top-nav .navbar ul li {
+.top-nav ul li {
+  padding-left: 12vw !important;
   display: inline-block;
   list-style: none;
 }
 
+.top-nav .navbar {
+  background-color: #eaedf2 !important;
+}
+
 .top-nav .navbar-toggler-icon {
   background: url(/assets/menu.svg) no-repeat;
-  max-width: 1.5vw;
+  max-width: 3vh;
 }
 
 .top-nav .navbar-toggler-icon:hover {
