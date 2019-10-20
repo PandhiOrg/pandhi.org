@@ -23,6 +23,13 @@ body {
   }
 }
 
+@media (orientation: landscape) and (max-width: 768px) {
+  body {
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+}
+
 .title {
   letter-spacing: 0.08vw;
   font-style: italic;
@@ -74,9 +81,23 @@ h1 {
   }
 }
 
+@media (orientation: landscape) and (max-width: 768px) {
+  h1 {
+    font-size: 3.3vw;
+    line-height: 4vw;
+  }
+}
+
 h2 {
   font-size: 3vh;
   font-weight: 400;
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  h2 {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
 }
 
 .dc--splash {
@@ -355,12 +376,16 @@ footer a {
   font-style: italic;
 }
 
-.top-nav a {
-  border: 0 !important;
+.top-nav .nav-link {
+  border-bottom: 2px solid transparent !important;
+}
+
+.top-nav ul {
+  padding-bottom: 5vh;
 }
 
 .top-nav ul li {
-  padding-left: 12vw !important;
+  padding-left: 6vh !important;
   display: inline-block;
   list-style: none;
 }
@@ -378,6 +403,12 @@ footer a {
   opacity: 0.4;
 }
 
+@media (orientation: landscape) and (max-width: 768px) {
+  .top-nav .navbar-toggler-icon {
+    max-width: 3.33vw;
+  }
+}
+
 @media (min-width: 768px) {
   .card-columns {
     -webkit-column-count: 3;
@@ -389,5 +420,16 @@ footer a {
   text-align: left;
   font-size: 1.9vh;
   line-height: 3vh;
+}
+
+.fixed-warning {
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  background-color: #ffcc00;
+  z-index: 500000;
+  position: fixed;
+  bottom: 0;
+  padding: 5vw 5vh;
 }
 /*# sourceMappingURL=site.css.map */
