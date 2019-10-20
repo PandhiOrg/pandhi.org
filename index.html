@@ -24,15 +24,10 @@
 </head>
 
 <body>
-
-
-
     <div class="jumbotron dc--splash mb-0" id="container">
 
         <video id="the-video" autoplay loop poster="/assets/img/bw.jpg" class="bg">
         </video>
-
-
 
         <div class="container-fluid text-white">
             <div class="row">
@@ -308,7 +303,7 @@
         var mainVideo = $('#the-video');
 
         if ($(window).width() < 1020) {
-            mainVideo.append("<source type='video/mp4' src='/assets/mp4/Stumpy-Swimming_480p.mp4' />");
+            mainVideo.append("<source type='video/mp4' src='/assets/mp4/Stumpy-Swimming_480p_bw.mp4' />");
         } else {
             mainVideo.append("<source type='video/mp4' src='/assets/mp4/Stumpy-Swimming_1080p_bw.mp4' />");
         }
