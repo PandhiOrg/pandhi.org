@@ -340,8 +340,26 @@ footer {
   border: 1px solid #e0e3e6;
   padding-top: 1vh;
 
+  .title a {
+    color: $color--text !important;
+    letter-spacing: 0.08vw;
+    font-style: italic;
+  }
+
+  a {
+    border: 0 !important;
+  }
+
   .navbar {
     background-color: #eaedf2 !important;
+    ul {
+      padding-left: 2vw;
+
+      li {
+        display: inline-block;
+        list-style: none;
+      }
+    }
   }
 
   .navbar-toggler-icon {
@@ -352,16 +370,19 @@ footer {
       opacity: 0.4;
     }
   }
-  a {
-    border: 0 !important;
+}
+
+
+.card-columns {
+  @media (min-width: 768px) {
+    column-count: 3;
   }
+}
 
-  ul {
-    padding-left: 2vw;
-
-    li {
-      display: inline-block;
-      list-style: none;
-    }
+.team{
+  p{
+    text-align: left;
+    font-size: 1.9vh;
+    line-height: 3vh;
   }
 }

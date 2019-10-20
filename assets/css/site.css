@@ -349,8 +349,27 @@ footer a {
   padding-top: 1vh;
 }
 
+.top-nav .title a {
+  color: #303030 !important;
+  letter-spacing: 0.08vw;
+  font-style: italic;
+}
+
+.top-nav a {
+  border: 0 !important;
+}
+
 .top-nav .navbar {
   background-color: #eaedf2 !important;
+}
+
+.top-nav .navbar ul {
+  padding-left: 2vw;
+}
+
+.top-nav .navbar ul li {
+  display: inline-block;
+  list-style: none;
 }
 
 .top-nav .navbar-toggler-icon {
@@ -362,16 +381,16 @@ footer a {
   opacity: 0.4;
 }
 
-.top-nav a {
-  border: 0 !important;
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
 }
 
-.top-nav ul {
-  padding-left: 2vw;
-}
-
-.top-nav ul li {
-  display: inline-block;
-  list-style: none;
+.team p {
+  text-align: left;
+  font-size: 1.9vh;
+  line-height: 3vh;
 }
 /*# sourceMappingURL=site.css.map */
