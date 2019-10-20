@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Vollkorn+SC|Vollkorn:400,400i,600|Khand:600");
+@import url("https://fonts.googleapis.com/css?family=Vollkorn+SC|Montserrat:400,600|Vollkorn:400,400i,600,700");
+::-moz-focus-inner {
+  border: 0 !important;
+}
+
+:focus {
+  outline: none !important;
+}
+
 body {
   font-family: "Vollkorn", serif;
   font-size: 2vh;
@@ -10,9 +18,21 @@ body {
 
 @media (min-width: 768px) {
   body {
-    font-size: 1.8vh;
-    line-height: 2.7vh;
+    font-size: 2.15vh;
+    line-height: 3.2vh;
   }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  body {
+    font-size: 2vw;
+    line-height: 3.5vw;
+  }
+}
+
+.title {
+  letter-spacing: 0.08vw;
+  font-style: italic;
 }
 
 h1,
@@ -52,7 +72,20 @@ a:hover {
 h1 {
   font-size: 3.8vh;
   font-weight: 400;
-  line-height: 67px;
+  line-height: 5vh;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    line-height: 6.5vh;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  h1 {
+    font-size: 3.3vw;
+    line-height: 4vw;
+  }
 }
 
 h2 {
@@ -60,8 +93,15 @@ h2 {
   font-weight: 400;
 }
 
+@media (orientation: landscape) and (max-width: 768px) {
+  h2 {
+    font-size: 3vw;
+    line-height: 4vw;
+  }
+}
+
 .dc--splash {
-  min-height: 127vh;
+  height: 100vh;
   position: relative;
 }
 
@@ -77,7 +117,7 @@ h2 {
 
 @media (min-width: 768px) {
   .stats {
-    top: 16vh !important;
+    top: 10vh !important;
     display: block;
   }
 }
@@ -87,7 +127,7 @@ h2 {
 }
 
 .stats .stat {
-  font-family: "Khand", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 30px;
 }
 
@@ -124,7 +164,7 @@ aside a {
 }
 
 main section {
-  margin-top: 26vh;
+  margin-top: 16vh;
   margin-bottom: 8vh;
 }
 
@@ -138,7 +178,7 @@ video.bg {
   left: 0;
   z-index: 0;
   width: 100%;
-  height: 127vh;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -151,6 +191,10 @@ video.bg {
   .pc-only {
     display: block;
   }
+}
+
+.jumbotron {
+  padding-top: 0.5rem;
 }
 
 .mobile-only {
@@ -243,24 +287,47 @@ video.bg {
   }
 }
 
+.vh1 {
+  height: 100vh;
+  background-size: cover;
+}
+
 nav {
   background-color: #000 !important;
 }
 
 nav .navbar-brand {
   font-size: 16px !important;
+  font-family: "Vollkorn", serif;
 }
 
 nav a {
-  font-size: 13px !important;
+  font-size: 15px !important;
   border: 0 !important;
-  font-weight: 2 00;
+  color: #ffffff !important;
   font-style: normal !important;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #ffcc00 !important;
+}
+
+nav .text-white p {
+  color: rgba(255, 255, 255, 0.5) !important;
 }
 
 nav .nav-item {
-  margin-left: 2vw;
-  margin-right: 2vw;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+nav .navbar-toggler {
+  border: 0;
 }
 
 .o-75 {
@@ -278,5 +345,91 @@ nav .nav-item {
 .yellowshadow {
   -webkit-box-shadow: #ffcc00 12px -12px 0;
           box-shadow: #ffcc00 12px -12px 0;
+}
+
+.yellowshadow.medium-zoom-image--opened {
+  -webkit-box-shadow: #ffcc00 0px 0px 0;
+          box-shadow: #ffcc00 0px 0px 0;
+}
+
+.text-uppercaseSC {
+  font-family: "Vollkorn SC", serif;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  border-bottom-width: 1px !important;
+}
+
+.top-nav {
+  background-color: #eaedf2 !important;
+  border: 1px solid #e0e3e6;
+  padding-top: 1vh;
+}
+
+.top-nav .title a {
+  color: #303030 !important;
+  letter-spacing: 0.08vw;
+  font-style: italic;
+}
+
+.top-nav .nav-link {
+  border-bottom: 2px solid transparent !important;
+}
+
+.top-nav ul {
+  padding-bottom: 5vh;
+}
+
+.top-nav ul li {
+  padding-left: 6vh !important;
+  display: inline-block;
+  list-style: none;
+}
+
+.top-nav .navbar {
+  background-color: #eaedf2 !important;
+}
+
+.top-nav .navbar-toggler-icon {
+  background: url(/assets/menu.svg) no-repeat;
+  max-width: 3vh;
+}
+
+.top-nav .navbar-toggler-icon:hover {
+  opacity: 0.4;
+}
+
+@media (orientation: landscape) and (max-width: 768px) {
+  .top-nav .navbar-toggler-icon {
+    max-width: 3.33vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+    -webkit-column-count: 3;
+            column-count: 3;
+  }
+}
+
+.team p {
+  text-align: left;
+  font-size: 1.9vh;
+  line-height: 3vh;
+}
+
+.fixed-warning {
+  height: 100vh;
+  width: 100vw;
+  font-size: 18px;
+  background-color: #ffcc00;
+  z-index: 500000;
+  position: fixed;
+  bottom: 0;
+  padding: 5vw 5vh;
 }
 /*# sourceMappingURL=site.css.map */
