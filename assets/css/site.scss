@@ -117,7 +117,7 @@ h2 {
   position: relative;
 
   @media (min-width: 768px) {
-    top: 10vh !important;
+    top: 3vh !important;
     display: block;
   }
 
@@ -247,7 +247,7 @@ video.bg {
   height: 80vh;
   background-size: cover;
   background-position: center center;
-
+  background-color: #303030;
   @media (min-width: 1024px) {
     height: 75vh;
   }
@@ -258,7 +258,7 @@ video.bg {
   height: 60vh;
   background-size: cover;
   background-position: center center;
-
+  background-color: #303030;
   @media (min-width: 1024px) {
     height: 40vh;
   }
@@ -266,6 +266,7 @@ video.bg {
 
 .m--- {
   background-position: 30% center;
+  background-color: #303030;
 }
 
 .appeal {
@@ -361,10 +362,9 @@ footer {
   }
 
   .nav-link {
-    border-bottom: 2px solid transparent !important;  
+    border-bottom: 2px solid transparent !important;
   }
 
-  
   ul {
     li {
       padding-left: 6vh !important;
