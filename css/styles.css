@@ -9503,7 +9503,6 @@ section.section {
 
 @media only screen and (min-width:992px) {
     .donate-box__inner {
-
     }
 }
 
@@ -24881,4 +24880,17 @@ p a {
 .heading__title span:nth-child(2)::before {
     content: ' ';
     display: inline;
+}
+
+
+.button--white {
+    color: #000 !important;
+}
+
+.cta-block .heading__pre-title {
+    color: #000;
+}
+
+.cta-block .heading.heading--style-2 .heading__pre-title::before {
+    background-color: #000;
 }
