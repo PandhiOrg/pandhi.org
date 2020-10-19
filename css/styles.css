@@ -9480,6 +9480,7 @@ section.section {
     color: #fff;
     overflow: hidden;
     background: linear-gradient(rgba(40, 47, 52, .15) 40%, rgb(40, 47, 52) 90%);
+    cursor: ew-resize;
 }
 
 .donate-box--green {
@@ -9497,23 +9498,12 @@ section.section {
     bottom: 0;
     left: 0;
     width: 100%;
-    -webkit-transform: translateY(45px);
-    -ms-transform: translateY(45px);
-    transform: translateY(45px);
-    padding: 0 15px 35px 15px;
-    -webkit-transition: -webkit-transform .3s;
-    transition: -webkit-transform .3s;
-    -o-transition: transform .3s;
-    transition: transform .3s;
-    transition: transform .3s, -webkit-transform .3s
+    padding: 0 25px 35px 25px;
 }
 
 @media only screen and (min-width:992px) {
     .donate-box__inner {
-        -webkit-transform: translateY(25px);
-        -ms-transform: translateY(25px);
-        transform: translateY(25px);
-        padding: 0 40px 35px 40px
+
     }
 }
 
@@ -9577,11 +9567,6 @@ section.section {
     visibility: visible
 }
 
-.donate-box:hover .donate-box__inner {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0)
-}
 
 .faq-item {
     margin-bottom: 50px

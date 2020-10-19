@@ -82,6 +82,7 @@
 				slidesToShow: 2,
 				arrows: false,
 				dots: true,
+				infinite: false,
 				appendDots: $('.donation-slider__dots'),
 				responsive: [{
 					breakpoint: 768,
