@@ -24877,3 +24877,17 @@ section.instagram {
     width: 100%;
     background: #222 !important;
 }
+
+
+p a {
+    border-bottom: 3px solid #fdd340;
+    padding: 0;
+    color: #000;
+    transition: all linear 0.3s;
+}
+
+    p a:hover {
+        background: transparent;
+        color: #fdd340;
+        transition: all linear 0.3s;
+    }

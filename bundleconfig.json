@@ -4,5 +4,11 @@
     "inputFiles": [
       "css/styles.css"
     ]
+  },
+  {
+    "outputFileName": "js/common.min.js",
+    "inputFiles": [
+      "js/common.js"
+    ]
   }
 ]
