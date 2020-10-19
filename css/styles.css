@@ -24864,3 +24864,16 @@ section.instagram {
 .team-item__position {
     font-style: italic !important;
 }
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+.blackdiv::before {
+    z-index: -5000;
+    height: 100%;
+    width: 100%;
+    background: #222 !important;
+}
