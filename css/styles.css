@@ -24891,3 +24891,9 @@ p a {
         color: #fdd340;
         transition: all linear 0.3s;
     }
+
+
+.heading__title span:nth-child(2)::before {
+    content: ' ';
+    display: inline;
+}
