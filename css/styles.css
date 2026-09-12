@@ -9,6 +9,7 @@
 
 @import url("https://use.typekit.net/krl3wiq.css");
 
+
 *, ::after, ::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box
@@ -7915,13 +7916,7 @@ body.compensate-for-scrollbar {
     display: block
 }
 
-@font-face {
-    font-family: font-awesome;
-    font-weight: 400;
-    font-style: normal;
-    src: url(../fonts/font-awesome/fontawesome-webfont.eot);
-    src: url(../fonts/font-awesome/fontawesome-webfont.eot?#iefix) format("embedded-opentype"), url(../fonts/font-awesome/fontawesome-webfont.woff) format("woff"), url(../fonts/font-awesome/fontawesome-webfont.ttf) format("truetype")
-}
+
 
 .icon {
     display: inline-block;
@@ -21985,4 +21980,9 @@ p a {
 
 .cta-block .heading.heading--style-2 .heading__pre-title::before {
     background-color: #000;
+}
+
+
+.pubs small em{
+    color: #333;
 }
